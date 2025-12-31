@@ -1,5 +1,5 @@
 # 1. Base image (OpenJDK runtime)
-FROM openjdk:17-jdk-slim
+FROM 17-jdk-slim-bullseye
 
 # 2. Set working directory
 WORKDIR /app
