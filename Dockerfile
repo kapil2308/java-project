@@ -1,5 +1,5 @@
 # 1. Base image (OpenJDK runtime)
-FROM 17-jdk-slim-bullseye
+FROM eclipse-temurin:21-jdk-jammy
 
 # 2. Set working directory
 WORKDIR /app
